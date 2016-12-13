@@ -1,16 +1,20 @@
-# generator-rubytdd [![NPM version][npm-image]][npm-url] [![Build Status][travis-image]][travis-url] [![Dependency Status][daviddm-image]][daviddm-url] [![Coverage percentage][coveralls-image]][coveralls-url]
 > basic ruby tdd setup using rspec
 
 ## Installation
-
-First, install [Yeoman](http://yeoman.io) and generator-rubytdd using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
+```
+Pull down the repository 
+```
+Install [Yeoman](http://yeoman.io)
 
 ```bash
-npm install -g yo
-npm install -g generator-rubytdd
+npm install -g yo 
 ```
 
-Then generate your new project:
+Within the repository, run:
+```
+npm link
+```
+navigate to empty folder and run:
 
 ```bash
 yo rubytdd
@@ -26,13 +30,3 @@ yo rubytdd
 ## License
 
 MIT © [Kyle Rego]()
-
-
-[npm-image]: https://badge.fury.io/js/generator-rubytdd.svg
-[npm-url]: https://npmjs.org/package/generator-rubytdd
-[travis-image]: https://travis-ci.org//generator-rubytdd.svg?branch=master
-[travis-url]: https://travis-ci.org//generator-rubytdd
-[daviddm-image]: https://david-dm.org//generator-rubytdd.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org//generator-rubytdd
-[coveralls-image]: https://coveralls.io/repos//generator-rubytdd/badge.svg
-[coveralls-url]: https://coveralls.io/r//generator-rubytdd
